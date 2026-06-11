@@ -51,7 +51,7 @@ const app = () => {
             value={detail}
           />
           <button className=" active:scale-95 text-black px-2 py3 bg-amber-50 border-2">
-            Add Notes
+            Add New Notes now
           </button>
         </form>
 
@@ -63,7 +63,7 @@ const app = () => {
         {/*  this is your  right contanner  for recent notes   jis me sub note add hoga */}
         <h1 className="text-4xl font-bold text-blue-300 ">
           {" "}
-          {/*  recentr notes text  hading  */} This is your Recent Nots
+          {/*  recentr notes text  hading  */} This is your Recent Notes
         </h1>
         <div className=" flex flex-wrap items-start   gap-5 p-10  h-full overflow-auto">
           {task.map(function (elem, book) {
